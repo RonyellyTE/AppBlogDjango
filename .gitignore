@@ -1,0 +1,4 @@
+.env 
+__pycash__/
+*.pyc
+db.sqlite
