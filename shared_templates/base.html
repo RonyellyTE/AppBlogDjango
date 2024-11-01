@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <title>{%block title %} Meu Projeto {%endblock%}</title>
+</head>
+
+<body>
+    {%include 'components/header.html'%}
+    <main>
+        {% block content %}
+        <!-- Este bloco será substituído pelo conteúdo das páginas que estendem base.html -->
+        {% endblock %}
+    </main>
+    {%include 'components/footer.html'%}
+</body>
+
+</html>

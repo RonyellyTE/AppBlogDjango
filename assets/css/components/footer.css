@@ -1,0 +1,19 @@
+/* footer.css */
+
+/* Estilização do rodapé */
+footer {
+    text-align: center; /* Centraliza o texto do rodapé */
+    margin-top: 20px; /* Espaçamento acima do rodapé */
+    padding: 20px; /* Preenchimento interno */
+    background-color: #f8f9fa; /* Cor de fundo do rodapé */
+    border-top: 1px solid #dee2e6; /* Linha acima do rodapé */
+}
+
+footer a {
+    color: #007bff; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}

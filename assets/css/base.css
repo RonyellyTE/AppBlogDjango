@@ -1,0 +1,42 @@
+/* base.css */
+
+/* Reset de margens e preenchimento padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilização do corpo */
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    line-height: 1.6; /* Aumento do espaçamento entre linhas */
+    background-color: #f4f4f4; /* Cor de fundo suave */
+    color: #343a40; /* Cor do texto padrão */
+    padding: 20px; /* Adiciona um espaçamento ao redor do conteúdo */
+}
+
+/* Estilização do cabeçalho */
+header {
+    background-color: #f8f9fa; /* Cor de fundo do cabeçalho */
+    padding: 20px; /* Preenchimento interno */
+    border-bottom: 1px solid #dee2e6; /* Linha inferior */
+}
+
+/* Estilização do conteúdo principal */
+main {
+    margin-top: 20px; /* Espaçamento acima do conteúdo principal */
+    background-color: #fff; /* Fundo branco para o conteúdo */
+    padding: 20px; /* Preenchimento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+/* Estilização do rodapé */
+footer {
+    text-align: center; /* Centraliza o texto do rodapé */
+    margin-top: 20px; /* Espaçamento acima do rodapé */
+    padding: 10px; /* Preenchimento interno */
+    background-color: #f8f9fa; /* Cor de fundo do rodapé */
+    border-top: 1px solid #dee2e6; /* Linha acima do rodapé */
+}
